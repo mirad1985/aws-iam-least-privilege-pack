@@ -1,7 +1,7 @@
 # AWS Least Privilege IAM Role Deployment Pack 
 *A hands-on cloud security project demonstrating IAM role creation, trust policies, and least-privilege access control.*
 
-Overview
+**Overview**
 This project automates the deployment of a least-privilege IAM role using AWS CLI and custom JSON policies.
 
 The project includes:
@@ -97,7 +97,7 @@ aws iam list-roles | grep least-privilege-demo-role
 #Use Cases
 - Creating secure IAM roles for applications
 - Auditing over-permissioned AWS environments
-- Demonstrating IAm best practices
+- Demonstrating IAM best practices
 - Teaching least-privilege patterns for EC2/Lambda/S3
 
   **Author:** Michelle Radecker
