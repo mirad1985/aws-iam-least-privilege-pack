@@ -44,25 +44,19 @@ flowchart TD
 ### **Project Directory Structure**
 aws-iam-least-privilege-pack/
 
-│
-
 ├── deploy.sh
-
 ├── README.md
-
 ├── before_after/
-
 ├── policies/
+   ├── trust-policy.json
 
-│   ├── trust-policy.json
+   ├── iam-policy.json
 
-│   ├── iam-policy.json
+   ├── ec2-read-only.json
 
-│   ├── ec2-read-only.json
+   ├── lambda-exec-roles.json
 
-│   ├── lambda-exec-roles.json
-
-│   └── s3-upload-only.json
+   └── s3-upload-only.json
 
 ### **How to Run the Project (Step-by-Step)**
 
