@@ -60,7 +60,8 @@ flowchart TD
 chmod +x deploy.sh
 ./deploy.sh
 
-#Validate Role Created
+#### Validate Role Created
+
 aws iam list-roles | grep least-privilege-demo-role
 
 ### **Before & After**
