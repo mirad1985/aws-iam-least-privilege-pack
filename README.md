@@ -58,6 +58,7 @@ flowchart TD
  
 ### Deployment
 chmod +x deploy.sh
+
 ./deploy.sh
 
 #### Validate Role Created
