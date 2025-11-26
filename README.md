@@ -75,7 +75,7 @@ aws iam list-roles | grep least-privilege-demo-role
   "Resource": "*"
 }
 
-### After (least-privilege)
+### After (Least-Privilege)
 {
   "Effect": "Allow",
   "Action": ["s3:PutObject"],
