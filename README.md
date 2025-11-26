@@ -57,8 +57,10 @@ flowchart TD
   - sts:GetCallerIdentity
  
 ### Deployment
-chmod +x deploy.sh
-./deploy.sh
+
+<img width="366" height="44" alt="Screen Shot 2025-11-26 at 9 56 49 AM" src="https://github.com/user-attachments/assets/6e6e9ea0-cd8b-48e9-ba31-17e727be4c26" />
+
+Use the commands above to deploy.
 
 #### Validate Role Created
 
