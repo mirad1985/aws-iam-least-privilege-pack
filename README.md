@@ -19,14 +19,14 @@ This project demonstrates the skills of:
 - AWS CLI automation
 - Policy testing and validation
 
-##Features
+#Features
 - Automated IAM Role Creation
 - Automated IAM Policy Attachment
 - Testable CLI commands
 - Complete least-privilege JSON
 - No manual AWS Console steps required
 
-##Architecture Diagram
+#Architecture Diagram
 flowchart TD
     DevLaptop["Developer Machine (AWS CLI)"]
     DeployScript["deploy.sh"]
@@ -39,7 +39,7 @@ flowchart TD
     IAMRole --> TrustPolicy
     IAMRole --> IAMPolicy
 
-##Project Directory Structure
+#Project Directory Structure
 aws-iam-least-privilege-pack/
 │
 ├── deploy.sh
@@ -52,9 +52,9 @@ aws-iam-least-privilege-pack/
 │   ├── lambda-exec-roles.json
 │   └── s3-upload-only.json
 
-##How to Run the Project (Step-by-Step)
+#How to Run the Project (Step-by-Step)
 
-##Prerequisites
+#Prerequisites
 - AWS CLI installed
 - IAM user with permissions to:
   - iam: CreateRole
@@ -62,23 +62,23 @@ aws-iam-least-privilege-pack/
   - iam: ListRoles
   - sts:GetCallerIdentity
  
-##Deployment
+#Deployment
 chmod +x deploy.sh
 ./deploy.sh
 
-##Validate Role Created
+#Validate Role Created
 aws iam list-roles | grep least-privilege-demo-role
 
-##Before & After
+#Before & After
 
-##Before
+#Before
 {
   "Effect": "Allow",
   "Action": "*",
   "Resource": "*"
 }
 
-##After (least-privilege)
+#After (least-privilege)
 {
   "Effect": "Allow",
   "Action": ["s3:PutObject"],
@@ -86,7 +86,7 @@ aws iam list-roles | grep least-privilege-demo-role
 }
 
   
-##Security Concepts Demonstrated
+#Security Concepts Demonstrated
 - Principle of Least Privilege: Role and policy grant only what is required and nothing more
 - IAM Trust vs Permissions Policy
   - Trust policy: who can assume the role
@@ -94,7 +94,7 @@ aws iam list-roles | grep least-privilege-demo-role
 - Infrastructure-as-Code Style Scripting: Bash workflow automates IAM resource creation
 - Defense-in-Depth: Include EC2, Lambd, and S3 least-privilege patterns
 
-##Use Cases
+#Use Cases
 - Creating secure IAM roles for applications
 - Auditing over-permissioned AWS environments
 - Demonstrating IAm best practices
