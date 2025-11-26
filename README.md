@@ -42,21 +42,9 @@ flowchart TD
     IAMRole --> IAMPolicy
 
 ### **Project Directory Structure**
-aws-iam-least-privilege-pack/
 
-├── deploy.sh
-├── README.md
-├── before_after/
-├── policies/
-   ├── trust-policy.json
+<img width="239" height="315" alt="project-directory-structure" src="https://github.com/user-attachments/assets/1d250365-f598-4597-a645-578e28e90bbf" />
 
-   ├── iam-policy.json
-
-   ├── ec2-read-only.json
-
-   ├── lambda-exec-roles.json
-
-   └── s3-upload-only.json
 
 ### **How to Run the Project (Step-by-Step)**
 
