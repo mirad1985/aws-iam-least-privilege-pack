@@ -43,7 +43,7 @@ flowchart TD
 
 ### **Project Directory Structure**
 
-<img width="239" height="315" alt="project-directory-structure" src="https://github.com/user-attachments/assets/1d250365-f598-4597-a645-578e28e90bbf" />
+<img width="239" height="315" alt="project-directory-structure" src="https://github.com/user-attachments/assets/32962463-d820-4379-a389-126c5152cacf" />
 
 
 ### **How to Run the Project (Step-by-Step)**
