@@ -97,6 +97,8 @@ aws iam list-roles | grep least-privilege-demo-role
 - Demonstrating IAM best practices
 - Teaching least-privilege patterns for EC2/Lambda/S3
 
+---
+
 **Author:** Michelle Radecker
 
 Linkedin: https://www.linkedin.com/in/mradecker/
